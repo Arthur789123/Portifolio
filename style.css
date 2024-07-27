@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    background-color: #ededed;
+}
+
+header {
+    background-color: rgb(8, 117, 180);
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav,
+a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+header nav,
+a:hover {
+    color: rgba(2, 13, 15, 0.842);
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(8, 117, 180);
+    color: white;
+    height: 200px;
+}
+
+.div-quem-sou {
+    height: 600px;
+    display: grid;
+    grid-template-columns: 600px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.img-perfil {
+    width: 300px;
+
+}
+
+.div-imagem {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+}
+
+.div-texto {
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.div-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.div-projetos-1 {
+    width: 50%;
+    font-size: 20px;
+}
+
+.img-stack {
+    height: 200px;
+}
+
+.ul-stacks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+   
+}
+
+.li-HTML {
+    background-color: rgb(241, 77, 12);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.li-CSS {
+    background-color: rgb(12, 157, 241);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.li-JavaScript {
+    background-color: rgb(245, 241, 6);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.li-H {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-C {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-J {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-projetos-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+
